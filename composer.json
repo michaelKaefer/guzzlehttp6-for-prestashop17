@@ -24,8 +24,12 @@
         ],
         "psr-4": {
             "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\GuzzleHttp\\": [
-                "src/guzzlehttp/guzzle/src/",
-                "src/guzzlehttp/psr7/src/",
+                "src/guzzlehttp/guzzle/src/"
+            ],
+            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\GuzzleHttp\\Psr7\\": [
+                "src/guzzlehttp/psr7/src/"
+            ],
+            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\GuzzleHttp\\Promise\\": [
                 "src/guzzlehttp/promises/src/"
             ],
             "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\Psr\\Http\\": [
