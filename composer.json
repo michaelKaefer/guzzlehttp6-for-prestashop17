@@ -32,7 +32,7 @@
             "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\GuzzleHttp\\Promise\\": [
                 "src/guzzlehttp/promises/src/"
             ],
-            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\Psr\\Http\\": [
+            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\Psr\\Http\\Message\\": [
                 "src/psr/http-message/src/"
             ]
         }
