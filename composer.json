@@ -1,0 +1,36 @@
+{
+    "name": "michaelkaefer/guzzlehttp6-for-prestashop17",
+    "description": "Enables you in PrestaShop 1.7 to use packages which depend on Guzzle ^6.0.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Käfer",
+            "email": "michael.kaefer1@gmx.at"
+        }
+    ],
+    "keywords": [
+        "php",
+        "guzzle",
+        "guzzlehttp",
+        "prestashop",
+        "client",
+        "http"
+    ],
+    "autoload": {
+        "files": [
+            "src/guzzlehttp/guzzle/src/functions_include.php",
+            "src/guzzlehttp/promises/src/functions_include.php",
+            "src/guzzlehttp/psr7/src/functions_include.php"
+        ],
+        "psr-4": {
+            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\GuzzleHttp\\": [
+                "src/guzzlehttp/guzzle/src/",
+                "src/guzzlehttp/psr7/src/",
+                "src/guzzlehttp/promises/src/"
+            ],
+            "MichaelKaefer\\GuzzleHttp6ForPrestashop17\\Psr\\Http\\": [
+                "src/psr/http-message/src/"
+            ]
+        }
+    }
+}
